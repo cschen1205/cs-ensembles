@@ -8,8 +8,8 @@
     <ProjectGuid>{43060F05-1AB0-483C-BEA4-AC1F62A85FE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimuKit.ML.Ensemble</RootNamespace>
-    <AssemblyName>SimuKit.ML.Ensemble</AssemblyName>
+    <RootNamespace>Ensemble</RootNamespace>
+    <AssemblyName>Ensemble</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,16 +46,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomEngine.cs" />
     <Compile Include="WeakClassifier.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SimuKit.Math\SimuKit.Math.csproj">
-      <Project>{206551B4-70D2-4587-B1B8-AB276578B8F4}</Project>
-      <Name>SimuKit.Math</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\SimuKit.ML\SimuKit.ML.csproj">
-      <Project>{A0EEAC9F-645A-4C76-A960-31C79BA71417}</Project>
-      <Name>SimuKit.ML</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
