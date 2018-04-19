@@ -43,8 +43,27 @@
     <Compile Include="Bagging\TreeBagging.cs" />
     <Compile Include="Boosting\AdaBoost.cs" />
     <Compile Include="EnsembleLearning.cs" />
+    <Compile Include="Lang\BinaryDataPoint.cs" />
+    <Compile Include="Lang\BinaryFeatureVector.cs" />
+    <Compile Include="Lang\CDataRecord.cs" />
+    <Compile Include="Lang\DataRecord.cs" />
+    <Compile Include="Lang\DataSetTypes.cs" />
+    <Compile Include="Lang\DataTransformer.cs" />
+    <Compile Include="Lang\DDataRecord.cs" />
+    <Compile Include="Lang\FeatureVector.cs" />
+    <Compile Include="Lang\MLDataPoint.cs" />
+    <Compile Include="Lang\RDataRecord.cs" />
+    <Compile Include="Lang\SampleSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomEngine.cs" />
+    <Compile Include="Solvers\Classifier.cs" />
+    <Compile Include="Solvers\Classifier_ErrorMetrics.cs" />
+    <Compile Include="Solvers\Classifier_LearningCurve.cs" />
+    <Compile Include="Solvers\IClassifier.cs" />
+    <Compile Include="Solvers\MachineLearningComputingMode.cs" />
+    <Compile Include="Util\DblDataTableUtil.cs" />
+    <Compile Include="Util\IntDataTableUtil.cs" />
+    <Compile Include="Util\MLDataPointUtil.cs" />
     <Compile Include="WeakClassifier.cs" />
   </ItemGroup>
   <ItemGroup />

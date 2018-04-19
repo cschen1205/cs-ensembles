@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using SimuKit.ML.Solvers;
-using SimuKit.ML.Lang;
+using Solvers;
+using Lang;
 
-namespace SimuKit.ML.Ensemble
+namespace Ensemble
 {
     public class EnsembleLearning<T, U> : Classifier<T, U>
         where T : DataRecord<U>

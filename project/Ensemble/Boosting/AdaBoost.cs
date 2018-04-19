@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using SimuKit.ML.Lang;
-using SimuKit.ML.Solvers;
+using Lang;
+using Solvers;
 
-namespace SimuKit.ML.Ensemble.Boosting
+namespace Ensemble.Boosting
 {
     /// <summary>
     /// Discrete binary classifier by default
